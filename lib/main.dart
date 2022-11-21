@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
     return ScreenUtilInit(
       designSize: const Size(360, 690),
       builder: () => MaterialApp(
-        title: 'FORM LOGIN',
+        title: 'LOGIN',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           primaryColor: const Color(0xff4C53FB),

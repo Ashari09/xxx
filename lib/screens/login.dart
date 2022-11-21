@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-
-
 class LoginScreen extends StatelessWidget {
   const LoginScreen({Key? key}) : super(key: key);
 
@@ -21,11 +19,10 @@ class LoginScreen extends StatelessWidget {
                   height: 50.h,
                 ),
                 Image.asset(
-                  "assets/kunci.jpg",
+                  "assets/1.png",
                   height: 250.h,
                   width: double.infinity,
                 ),
-                
                 SizedBox(
                   height: 20.h,
                 ),
@@ -44,7 +41,7 @@ class LoginScreen extends StatelessWidget {
                   child: const TextField(
                     decoration: InputDecoration(
                         border: InputBorder.none,
-                        hintText: 'Enter Your Email',
+                        hintText: 'Masukkan Email',
                         contentPadding: EdgeInsets.all(10)),
                   ),
                 ),
@@ -67,7 +64,7 @@ class LoginScreen extends StatelessWidget {
                     obscureText: true,
                     decoration: InputDecoration(
                         border: InputBorder.none,
-                        hintText: 'Enter Password',
+                        hintText: 'Masukkan Password',
                         contentPadding: EdgeInsets.all(10)),
                   ),
                 ),
@@ -75,11 +72,9 @@ class LoginScreen extends StatelessWidget {
                   height: 5.h,
                 ),
                 InkWell(
-                    onTap: () {
-                     
-                    },
+                    onTap: () {},
                     child: Text(
-                      "Forgot Password ? ",
+                      "Lupa Password ? ",
                       style: TextStyle(fontSize: 12.sp, color: Colors.grey),
                     )),
                 SizedBox(
@@ -97,10 +92,7 @@ class LoginScreen extends StatelessWidget {
                     "Login",
                     style: TextStyle(color: Colors.white, fontSize: 20.sp),
                   ),
-                  onPressed: () {
-                    
-                           
-                  },
+                  onPressed: () {},
                 ),
                 SizedBox(
                   height: 8.h,
@@ -109,18 +101,16 @@ class LoginScreen extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      "don't have an account ? ",
+                      "Belum punya akun ? ",
                       style: TextStyle(
                           fontWeight: FontWeight.normal,
                           fontSize: 14.sp,
                           color: Colors.grey),
                     ),
                     InkWell(
-                      onTap: () {
-                       
-                      },
+                      onTap: () {},
                       child: Text(
-                        "Sign Up ",
+                        "Daftar Baru ",
                         style: TextStyle(
                             fontWeight: FontWeight.bold,
                             fontSize: 14.sp,
